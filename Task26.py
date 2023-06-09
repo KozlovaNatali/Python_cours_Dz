@@ -15,7 +15,3 @@ b = int(input("Введите число 'B': "))
 print(degree(a, b))
 
 
-
-# base = int(input("Введите число 'А': "))
-# exp = int(input("Введите число 'B': "))
-# print(power(base, exp))
