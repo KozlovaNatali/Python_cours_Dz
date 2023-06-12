@@ -27,7 +27,8 @@ def operation_table(operation, num_rows=6, num_columns=6):
         print(row, end=' ')
         for column in range(1, num_columns + 1):
             element = operation(row, column)
-            print(element, end=' ')
+            print(element, end='\t')
         print()    
 
 print(operation_table(lambda x, y: x * y))
+
